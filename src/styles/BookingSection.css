@@ -1,0 +1,134 @@
+/* Main Booking Section Layout */
+.booking-section {
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.booking-section h1 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+/* Booking Input Container */
+.booking-input {
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+/* Modern Location Input Style */
+.location-input {
+  width: 100%;
+  padding: 18px 20px;
+  border: 2px solid #ddd;
+  border-radius: 14px;
+  font-size: 1.1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.2s ease;
+  background-color: #fff;
+}
+
+.location-input:focus {
+  border-color: #f1c40f;
+  outline: none;
+}
+
+/* Suggestion Dropdown */
+.location-suggestions {
+  position: absolute;
+  width: 100%;
+  max-width: 700px;
+  top: 100%;
+  z-index: 10;
+  background: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  overflow: hidden;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.suggestion-item {
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.suggestion-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Booking Button */
+.booking-button {
+  width: 100%;
+  max-width: 700px;
+  padding: 14px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffc107;
+  color: #000;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.booking-button:hover {
+  background-color: #e0a800;
+}
+
+/* Service Section Styles */
+.service-section {
+  padding: 40px 0;
+}
+
+.service-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.service-card h3 {
+  color: #333;
+}
+
+.service-card p {
+  color: #666;
+}
+.icon-wrapper {
+  margin-bottom: 10px;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border: none;
+  padding: 25px 20px;
+  border-radius: 14px;
+  width: 260px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-card i {
+  display: block;
+}
+
+

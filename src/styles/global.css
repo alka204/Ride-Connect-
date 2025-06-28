@@ -1,0 +1,119 @@
+/* Navbar Enhancements */
+.custom-navbar {
+  background-color: #1f1f1f; /* Darker shade for a sleek navbar */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: #ccc !important;
+  transition: color 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107 !important; /* Bootstrap warning color */
+}
+
+.navbar .btn-warning {
+  background-color: #ffc107;
+  border: none;
+}
+
+.navbar .btn-warning:hover {
+  background-color: #e0a800;
+}
+/* About Page Styling */
+.about-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.about-section h3 {
+  font-size: 1.8rem;
+}
+
+.about-section p {
+  font-size: 1rem;
+  color: #333;
+}
+/* Add this to your CSS file to style the safety page */
+/* Safety Page Styling */
+.safety-tips li {
+  background-color: #e0e5f1;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Safety Page Styling */
+
+.safety-tips li:hover {
+  background-color: #c5d6ea; /* Lighter shade on hover */
+}
+
+.sos-section {
+  margin-top: 20px;
+}
+
+.btn-danger {
+  font-size: 16px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-danger:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Loading state animation */
+.btn-danger.loading {
+  animation: shake 0.5s ease-in-out infinite;
+}
+
+/* Shake animation for SOS button */
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Success alert for SOS */
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+  font-weight: bold;
+}
+
+/* Success message after SOS is sent */
+.sos-section .alert-success {
+  font-size: 1rem;
+  padding: 10px;
+}

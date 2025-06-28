@@ -1,0 +1,18 @@
+.service-card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  color: #ffcc00;
+}
+
+.selected {
+  border: 2px solid #ffc107 !important;
+}

@@ -1,0 +1,30 @@
+<!-- signup.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+    <!-- Add your CSS links here -->
+  </head>
+  <body>
+    <h1>Sign up</h1>
+    <p>Learn on your own time from top universities and businesses.</p>
+
+    <form action="/signup" method="POST">
+      <label for="fullname">Full Name *</label>
+      <input type="text" id="fullname" name="fullname" required />
+
+      <label for="email">Email *</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="password">Password *</label>
+      <input type="password" id="password" name="password" required />
+      <small>Between 8 and 72 characters</small>
+
+      <button type="submit">Join for Free</button>
+    </form>
+
+    <p>Already have an account? <a href="login.html">Log in</a></p>
+
+    <!-- Terms and conditions text -->
+  </body>
+</html>
